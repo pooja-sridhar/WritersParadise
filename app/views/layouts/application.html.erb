@@ -9,6 +9,11 @@
   </head>
 
   <body>
+  	<%= render 'layouts/navbar' %>
+  	<%= render 'layouts/messages' %>
+    <div class ="container">
     <%= yield %>
+   <!--  <%= debug(params) if Rails.env.development? %> -->
+  </div>
   </body>
 </html>

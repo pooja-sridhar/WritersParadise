@@ -1,0 +1,74 @@
+$navbar-default-bg: #6b3ba1;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+body
+{
+  background-color: #e6d4fa;
+}
+#nav-color{
+	color: white;
+ font-size: 1.5em;
+}
+
+
+.logo{
+	float: left;
+	font-size: 1.7em;
+	color: #fff;
+	letter-spacing: -1px;
+	font-weight: bold;
+	margin:10px;
+}
+
+.logo:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.center {
+	text-align: center;
+}
+.jumbotron{
+	background-image: asset-url('');
+	background-size: cover;
+	height: 550px;
+}
+.btn-custom{
+	font-size: 1.7em;
+}
+.btn-custom:hover{
+	color: #000;
+}
+.article-actions {
+	border-top: 1px solid #eaeaea;
+	padding-top: 5px;
+}
+.article-title {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.article-body {
+	border-top: 1px solid #eaeaea;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.description {
+	margin-top: 0;
+}
+.article-meta-details {
+	border-top: 1px solid #eaeaea;
+	margin-top: 15px;
+}
+.listing {
+list-style: none;
+padding-left: 0;
+
+}
+
+
+
